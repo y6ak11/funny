@@ -1,0 +1,19 @@
+body{
+
+    background-color: #FFFBDE;
+}
+.body{
+
+    background-color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+}
+.w{
+
+    background-color: #4682A9;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    
+}

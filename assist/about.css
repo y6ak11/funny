@@ -1,0 +1,105 @@
+body{
+
+    background-color: #BBDCE5;
+}
+
+header{
+   
+    text-align: center;
+    background-color: #ECEEDF;
+    color: rgb(21, 1, 1);
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(19, 173, 173, 0.8); 
+    transition: box-shadow 0.3s ease-in-out; 
+    font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic
+    
+    
+}
+header:hover{
+    box-shadow: 0 0 30px 10px rgba(0, 255, 255, 1);}
+
+    .i{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 15px;
+    }
+    .box{
+
+        width: 300px;
+        text-align: center;
+        background-color: #647FBC;
+        padding: 15px;
+        border-radius: 15px;
+        box-shadow: 0 12px 40px;
+        transition: transform 0.3 ease, background-color 0.3 ease;
+        
+        }
+
+        .box:hover{
+            transform: scale(0.9.1);
+                background-color: white;
+            }
+            .box img {
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+              }
+              .box p {
+                margin-bottom: 10px;
+                font-size: 18px;
+                color: #541212;
+                font-weight: bold;
+                background-color: #F0F0F0;
+                border: 3px solid black;
+                display: inline-flex;
+                padding: 5px;
+                
+              }
+
+
+              table{
+
+                width: 80%;
+                margin: 20px auto;
+                border-collapse: 4px;
+                background-color: #CFAB8D;
+
+              }
+              th{
+
+                background-color: #647FBC;
+                color: #BBDCE5;
+                padding: 10px 15px;
+                text-align: center;
+                font-size: 18px;
+              }
+              td{
+                background-color: #ECEEDF;
+                padding: 10px 15px;
+                text-align: center;
+                font-size: 16px;
+              }
+              tr:hover{
+                background-color: #BBDCE5;
+                cursor: pointer;
+              }
+              td:focus{
+                outline: 2px solid #541212;
+              }
+              
+.back{
+    
+    text-align: center;
+text-decoration: none;
+background-color: #CFAB8D;
+padding: 13px;
+margin: 15px;
+border-radius: 15px;
+
+    
+}
